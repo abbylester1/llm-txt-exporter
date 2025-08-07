@@ -1,0 +1,53 @@
+=== LLM TXT Exporter ===
+Contributors: abhinavsingh
+Tags: txt export, llm, content export, license
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.0
+Stable tag: 1.1.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Export your WordPress posts and pages as plain text files to help Large Language Models (LLMs) or crawlers index your content. Unlock premium features with a license key.
+
+== Description ==
+
+LLM TXT Exporter generates text files for your site's content that can be used for indexing by LLMs or other tools. The free version supports posts and pages, while the premium version unlocks features like custom post type exports, metadata, scheduling, and exclusions.
+
+== Installation ==
+
+1. Upload the `llm-txt-exporter` folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. For premium features, enter your license key under **Settings > LLM TXT Exporter**.
+4. Upon saving or updating a post/page, .txt files will be generated in `/wp-content/uploads/txt-exports/`.
+
+== Frequently Asked Questions ==
+
+= Where are the exported files saved? =
+
+In the `/wp-content/uploads/txt-exports/` folder on your server.
+
+= How do I unlock premium features? =
+
+Purchase a license key from the plugin author and enter it in the settings page.
+
+= Does this plugin support custom post types? =
+
+Yes, but only in the premium version with a valid license.
+
+== Changelog ==
+
+= 1.1.0 =
+* Added premium features: custom post types export, exclusions, scheduling, manual export, and license handling.
+
+= 1.0.0 =
+* Initial free version release.
+
+== Author ==
+
+Abhinav Singh is a professional WordPress plugin developer focused on creating useful plugins to enhance WordPress websites. With a passion for clean code and effective solutions for users, he is committed to ongoing plugin updates and community support.
+
+- Website: https://github.com/abbylester1
+- GitHub: https://github.com/abbylester1
+- LinkedIn: https://www.linkedin.com/in/abhinavrsingh/
+- Email: abbylester@gmail.com
